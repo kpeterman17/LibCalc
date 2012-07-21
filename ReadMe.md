@@ -4,10 +4,10 @@ LibCalc is a C/C++ library used for creating calculators.
 
 Functions
 =========
-add : Addition
-sub : Subtraction
-mult : Multiplication
-div : Division
+- add : Addition
+- sub : Subtraction
+- mult : Multiplication
+- div : Division
 
 How to Use
 ==========
