@@ -8,6 +8,7 @@ Functions
 - sub : Subtraction
 - mult : Multiplication
 - div : Division
+- (NOTE: You must use intOne and intTwo as your integers, unless you change them in LibCalc.h)
 
 How to Use
 ==========
