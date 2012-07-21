@@ -21,10 +21,13 @@ int main()
         printf("Enter in two numbers to be added:\n");
         printf("> ");
 
-        scanf("%d\n", &intOne);
-        scanf("%d\n", &intTwo);
+        scanf("%d", &intOne);
+        scanf("%d", &intTwo);
 
         printf("Answer: %d\n", add(intOne, intTwo));
+
+        getchar();
+        return 0;
     }
 
     else if (input == 'b')
@@ -32,13 +35,13 @@ int main()
         printf("Enter in two numbers to be subtracted:\n");
         printf("> ");
 
-        scanf("%d\n", &intOne);
-
-        printf("> ");
-
-        scanf("%d\n", &intTwo);
+        scanf("%d", &intOne);
+        scanf("%d", &intTwo);
 
         printf("Answer: %d\n", sub(intOne, intTwo));
+
+        getchar();
+        return 0;
     }
 
     else if (input == 'c')
@@ -46,13 +49,13 @@ int main()
         printf("Enter in two numbers to be multiplied:\n");
         printf("> ");
 
-        scanf("%d\n", &intOne);
-
-        printf("> ");
-
-        scanf("%d\n", &intTwo);
+        scanf("%d", &intOne);
+        scanf("%d", &intTwo);
 
         printf("Answer: %d\n", mult(intOne, intTwo));
+
+        getchar();
+        return 0;
     }
 
     else if (input == 'd')
@@ -60,13 +63,13 @@ int main()
         printf("Enter in two numbers to be divided:\n");
         printf("> ");
 
-        scanf("%d\n", &intOne);
-
-        printf("> ");
-
-        scanf("%d\n", &intTwo);
+        scanf("%d", &intOne);
+        scanf("%d", &intTwo);
 
         printf("Answer: %d\n", div(intOne, intTwo));
+
+        getchar();
+        return 0;
     }
 
     else
